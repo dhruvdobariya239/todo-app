@@ -1,0 +1,6 @@
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0}
+input[type="date"]::-webkit-calendar-picker-indicator{
+  filter: invert(0.7);
+  cursor: pointer;
+}
